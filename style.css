@@ -1,0 +1,100 @@
+*{
+  font-family: 'Concert One', cursive;
+  font: weight 400;
+}
+
+.container-liquid{
+    border: 1px solid black;
+    }
+
+    .collapse {
+        &:not(.show) {
+          display: none;
+        }
+      }
+      
+      .collapsing {
+        height: 0;
+        overflow: hidden;
+        @include transition($transition-collapse);
+      
+        &.collapse-horizontal {
+          width: 0;
+          height: auto;
+          @include transition($transition-collapse-width);
+        }
+      }
+
+      .container{
+        border: solid 1px black;
+      }
+
+      .nina{
+     top: 300px;
+      }
+
+      .titulo{
+
+        border: 1px solid black;
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        margin:10px ;
+        
+      }
+
+      .navegacao{
+        height: 100px;
+
+      }
+
+
+      .ilustracao{
+        width:652px ;
+        height: 456px;
+      }
+
+      .inscreva {
+        border: 0px;
+    
+      border-radius: 25px 25px;
+      color: rgb(4, 20, 15);
+      width:140px ;
+      height: 52px;
+      background-image: linear-gradient(#2975CC, #66ADFF);  
+      box-shadow: 5px 10px 8px #888888;
+
+      }
+      .inscreva:hover{
+        background-image: linear-gradient(#123b6b,#06264b) ;
+        color: aliceblue;
+        transform: translateX(5%);
+  
+
+
+
+      }
+
+      h1{
+        color: #292929;
+      }
+      h2{
+        color: #F59156;
+      }
+
+      .cartao{
+        flex-wrap: wrap;
+        margin-top: 200px;
+    
+
+      }
+
+      .rodape{
+        width: 200px;
+        height: 100px;
+        background-color: #424242;
+        color:#F7FAFC ;
+        text-align: center;
+        margin-top: 200px;
+      }
+
